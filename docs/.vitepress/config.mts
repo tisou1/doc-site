@@ -30,7 +30,22 @@ export default defineConfig({
         text: 'React',
         items: [
           { text: 'React知识点', link: '/react-known' },
+          { text: 'React-code', link: '/react/react-code' },
+          { text: 'React-use', link: '/react/react-use' },
+          { text: 'React-doc', link: '/react/react-doc' },
         ]
+      },
+      {
+        text: 'solid',
+        link: '/solid/solid-doc'
+      },
+      {
+        text: 'vue',
+        link: '/vue/vue-reacitivity'
+      },
+      {
+        text: 'pnpm',
+        link: '/pnpm'
       }
     ],
 
