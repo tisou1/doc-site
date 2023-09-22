@@ -27,6 +27,14 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Javascript',
+        items: [
+          { text: '原型与原型链', link: '/javascript/prototype'},
+          { text: '执行栈', link: '/javascript/execute-stack'},
+          { text: '变量对象', link: '/javascript/variable-object'}
+        ]
+      },
+      {
         text: 'React',
         items: [
           { text: 'React知识点', link: '/react-known' },
