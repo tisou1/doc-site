@@ -1,4 +1,4 @@
 node_modules
 
 # 开发缓存
-./.vitepress/cache
+docs/.vitepress/cache
