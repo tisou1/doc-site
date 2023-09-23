@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Vitepress",
-  description: "a vitepress site",
+  title: 'Vitepress',
+  description: 'a vitepress site',
   lastUpdated: true,
   markdown: {
     theme: {
@@ -17,22 +17,22 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
     ],
- 
+
     sidebar: [
       {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+          { text: 'Runtime API Examples', link: '/api-examples' },
+        ],
       },
       {
         text: 'Javascript',
         items: [
-          { text: '原型与原型链', link: '/javascript/prototype'},
-          { text: '执行栈', link: '/javascript/execute-stack'},
-          { text: '变量对象', link: '/javascript/variable-object'}
-        ]
+          { text: '原型与原型链', link: '/javascript/prototype' },
+          { text: '执行栈', link: '/javascript/execute-stack' },
+          { text: '变量对象', link: '/javascript/variable-object' },
+        ],
       },
       {
         text: 'React',
@@ -41,24 +41,24 @@ export default defineConfig({
           { text: 'React-code', link: '/react/react-code' },
           { text: 'React-use', link: '/react/react-use' },
           { text: 'React-doc', link: '/react/react-doc' },
-        ]
+        ],
       },
       {
         text: 'solid',
-        link: '/solid/solid-doc'
+        link: '/solid/solid-doc',
       },
       {
         text: 'vue',
-        link: '/vue/vue-reacitivity'
+        link: '/vue/vue-reactivity',
       },
       {
         text: 'pnpm',
-        link: '/pnpm'
-      }
+        link: '/pnpm/',
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+    ],
+  },
 })
