@@ -41,7 +41,7 @@ Scope = [AO].concat([[Scope]])
 
 以下面例子,结合变量对象和执行上下文栈
 ```js
-  var scope = "global scope";
+var scope = "global scope";
 function checkscope(){
     var scope2 = 'local scope';
     return scope2;
