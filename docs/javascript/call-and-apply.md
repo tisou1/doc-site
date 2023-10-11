@@ -102,3 +102,17 @@ Function.prototype.apply2 = function(context, args) {
 }
 
 ```
+
+
+## bind
+
+bind和call与apply相比,并不立即执行函数,而是会返回一个新的函数,等待调用
+
+```js
+Function.prototype.bind2 = function(context, ...args) {
+    return (...args2) => {
+        return this.apply2(context, [...args, ...args2])
+    }
+}
+
+```
