@@ -33,7 +33,8 @@ export default defineConfig({
           { text: '执行栈', link: '/javascript/execute-stack' },
           { text: '变量对象', link: '/javascript/variable-object' },
           { text: '作用域链', link: '/javascript/scope-chain' },
-          { text: '闭包', link: '/javascript/closure' }
+          { text: '闭包', link: '/javascript/closure' },
+          { text: '参数按值传递', link: '/javascript/parameter-passing-by-value'}
         ],
       },
       {
