@@ -35,7 +35,8 @@ export default defineConfig({
           { text: '作用域链', link: '/javascript/scope-chain' },
           { text: '闭包', link: '/javascript/closure' },
           { text: '参数按值传递', link: '/javascript/parameter-passing-by-value'},
-          { text: 'call&apply&bind', link: '/javascript/call-and-apply'}
+          { text: 'call&apply&bind', link: '/javascript/call-and-apply'},
+          { text: 'new', link: '/javascript/new'}
         ],
       },
       {
