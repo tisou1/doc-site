@@ -36,7 +36,8 @@ export default defineConfig({
           { text: '闭包', link: '/javascript/closure' },
           { text: '参数按值传递', link: '/javascript/parameter-passing-by-value'},
           { text: 'call&apply&bind', link: '/javascript/call-and-apply'},
-          { text: 'new', link: '/javascript/new'}
+          { text: 'new', link: '/javascript/new'},
+          { text: 'arguments', link: '/javascript/arguments'}
         ],
       },
       {
