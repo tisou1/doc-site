@@ -37,7 +37,8 @@ export default defineConfig({
           { text: '参数按值传递', link: '/javascript/parameter-passing-by-value'},
           { text: 'call&apply&bind', link: '/javascript/call-and-apply'},
           { text: 'new', link: '/javascript/new'},
-          { text: 'arguments', link: '/javascript/arguments'}
+          { text: 'arguments', link: '/javascript/arguments'},
+          { text: '对象创建方式', link: '/javascript/object'}
         ],
       },
       {
