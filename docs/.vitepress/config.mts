@@ -38,7 +38,8 @@ export default defineConfig({
           { text: 'call&apply&bind', link: '/javascript/call-and-apply'},
           { text: 'new', link: '/javascript/new'},
           { text: 'arguments', link: '/javascript/arguments'},
-          { text: '对象创建方式', link: '/javascript/object'}
+          { text: '对象创建方式', link: '/javascript/object'},
+          { text: '对象继承方式', link: '/javascript/extends'}
         ],
       },
       {
