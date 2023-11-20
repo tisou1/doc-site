@@ -39,7 +39,9 @@ export default defineConfig({
           { text: 'new', link: '/javascript/new'},
           { text: 'arguments', link: '/javascript/arguments'},
           { text: '对象创建方式', link: '/javascript/object'},
-          { text: '对象继承方式', link: '/javascript/extends'}
+          { text: '对象继承方式', link: '/javascript/extends'},
+          { text: '类型转换-显式', link: '/javascript/类型转换-显式'},
+          { text: '类型转换-隐式', link: '/javascript/类型转换-隐式'}
         ],
       },
       {
